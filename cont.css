@@ -1,0 +1,57 @@
+.container-contact {
+    background-image: url(imagens/sky1.png);
+    background-size: cover;
+    height: 100%;
+}
+.content-contact {
+    margin-left: var(--padding-var);
+    margin-right: var(--padding-var);
+    
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    background-color: rgb(255, 255, 255, 0.9);
+    height: 100%;
+
+    overflow: hidden;
+}
+.contact-title {
+    border-bottom: 1px solid black;
+    margin-bottom: 4rem;
+}
+
+.form-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.form-title {
+    margin-bottom: 1rem;
+}
+.form-tx-area {
+    border: 1px solid rgb(42, 42, 42);
+    border-radius: 10px;
+    box-shadow: 0.5rem 0.5rem 1rem rgba(70, 70, 70, 0.43);
+    margin-bottom: 1rem;
+    padding: 1rem 5rem 1rem 1rem;
+    transition-duration: 0.3s;
+}
+.form-tx-area:focus  {
+    border: 1px solid rgba(42, 42, 42, 0.3);
+    outline: none;
+    scale: 1.1;
+}
+.form-btn {
+    border: 1px solid rgb(42, 42, 42);
+    border-radius: 10px;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    transition-duration: 0.3s;
+}
+.form-btn:hover {
+    border: 1px solid rgba(42, 42, 42, 0.3);
+    box-shadow: 0.3rem 0.3rem 1rem rgba(70, 70, 70, 0.43);
+    cursor: pointer;
+    scale: 1.1;
+}

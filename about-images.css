@@ -1,0 +1,17 @@
+.lista-item_1 {
+    background-image: url("./imagens/card1");
+    background-position: 35%;
+    background-size: cover;
+}
+
+.lista-item_2 {
+    background-image: url("./imagens/games1.jpg");
+    background-position: 45%;
+    background-size: cover;
+}
+
+.lista-item_3 {
+    background-image: url("./imagens/nature1.jpg");
+    background-position: 35%;
+    background-size: cover;
+}

@@ -1,0 +1,23 @@
+.content-home {
+    margin-left: var(--padding-var);
+    margin-right: var(--padding-var);
+    
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    background-color: rgb(255, 255, 255, 0.9);
+    height: 100%;
+    border: 1px solid rgb(207, 207, 207);
+    border-top: 0px;
+}
+
+.background-home {
+    height: 100%;
+}
+
+.home-title {
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin-bottom: 2rem;
+}

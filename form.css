@@ -1,0 +1,40 @@
+.container-formation {
+    background-image: url(imagens/tech1.png);
+    background-size: cover;
+    height: 100%;
+}
+.content-formation {
+    margin-left: var(--padding-var);
+    margin-right: var(--padding-var);
+    
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    background-color: rgb(255, 255, 255, 0.9);
+    height: 100%;
+
+    overflow: hidden;
+}
+
+.formation-title {
+    border-bottom: 1px solid black;
+    margin-bottom: 2rem;
+}
+
+.formation-card-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+}
+.formation-card-item {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+    width: 45%;
+}
+
+.formation-card-text {
+    padding-top: 1rem;
+}
